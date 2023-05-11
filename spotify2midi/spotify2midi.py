@@ -52,13 +52,12 @@ class Spotify2Midi:
                         offset = a['start'] + a['duration']
         else:
             print('\033[91mTypeError\033[0m: limit type must be int or float')
-            return False
+            return
 
         print(f'Create {name}.mid')
         mid = mido.MidiFile(ticks_per_beat=self.ticks_per_beat)
         mid.tracks.append(track)
         mid.save(f'{path}{name}.mid')
-        return True
 
     def wakka(self):
         print('なんで寺院に機械があんだよ\n教えはどうなってんだ教えは\nお前ら禁じられた機械を平気で使ってんじゃねえか\n分かってんのか！？\n「シン」が生まれたのは人間が機械に甘えたせいだろうが\n金取んのかよ！？\nくそったれ！')
