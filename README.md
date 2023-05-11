@@ -27,7 +27,7 @@ pip install git+https://github.com/ryusei-hayashi/spotify2midi
 
 ## Usage
 ### Get Client ID and Client Secret
-Refer to the following websites and Get Client ID and Client Secret.
+If you don't have Client ID and Client Secret, please refer to the following websites to get them.
 * https://stevesie.com/docs/pages/spotify-client-id-secret-developer-api
 * https://nao-y.hatenablog.com/entry/2019/01/18/013416
 
