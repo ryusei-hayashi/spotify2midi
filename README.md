@@ -28,7 +28,7 @@ pip install git+https://github.com/ryusei-hayashi/spotify2midi
 ## Usage
 ### Get Client ID and Client Secret
 * [Create an Account](https://www.spotify.com/us/signup).
-* Visit [Spotify for Developers](https://developer.spotify.com/dashboard).
+* Access [Spotify for Developers](https://developer.spotify.com/dashboard).
 * [Create an App](https://developer.spotify.com/dashboard/create).
 * Get Client ID and Client Secret.
 
