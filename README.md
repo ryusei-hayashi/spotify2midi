@@ -1,5 +1,5 @@
 # spotify2midi
-This package creates MIDI file from the Spotify URL using Get Track's Audio Analysis of [Spotify Web API](https://developer.spotify.com/documentation/web-api).
+This package creates MIDI file from Spotify URL using Get Track's Audio Analysis of [Spotify Web API](https://developer.spotify.com/documentation/web-api).
 
 ## Description
 This package creates MIDI file from Spotify URL. For example, It creates [Twinkle Twinkle Little Star - Grand Piano Version.mid]() from [Twinkle Twinkle Little Star - Grand Piano Version](https://open.spotify.com/track/5Yx45WDFNYLFwj3pjtvfJ6). MIDI file is created in the current directory by get_midi method of Spotify2Midi object. get_midi method has seven arguments.
