@@ -32,7 +32,7 @@ pip install git+https://github.com/ryusei-hayashi/spotify2midi
 * [Create an App](https://developer.spotify.com/dashboard/create).
 * Get Client ID and Client Secret.
 
-### Test spotify2midi
+### Use spotify2midi
 ```
 import spotify2midi
 ```
