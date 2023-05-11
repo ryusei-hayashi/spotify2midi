@@ -4,13 +4,13 @@ This package creates MIDI file from Spotify URL using Get Track's Audio Analysis
 ## Description
 This package creates MIDI file from Spotify URL. For example, the package creates [Twinkle Twinkle Little Star - Grand Piano Version.mid]() from [Twinkle Twinkle Little Star - Grand Piano Version](https://open.spotify.com/track/5Yx45WDFNYLFwj3pjtvfJ6). MIDI file is created in current directory by get_midi method of Spotify2Midi object. get_midi method has 7 arguments.
 
-### get_midi method
+### get_midi
 * url: Enter Spotify URL of the music you want as MIDI file.
 * name: Enter name of MIDI file. Default is music name.
 * path: Enter directory where MIDI file is saved. Default is current directory.
 * limit: Enter natural number or real number between 0.0 and 1.0 to limit number of notes to write to MIDI file.
   * For natural number, limit acts as Maximum Polyphony.
-  * For real number, limit acts as Pronunciation Probability.
+  * For real number, limit acts as Pronunciation Probability Threshold.
 * confidence: Enter real number between 0.0 and 1.0 to limit confidence of records to write to MIDI file.
 * base_note: Enter base note of MIDI file as natural number. Default is C4.
 * offset: Enter offset of MIDI file. Default is 0.
