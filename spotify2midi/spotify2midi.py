@@ -51,7 +51,7 @@ class Spotify2Midi:
                             track.append(mido.Message('note_off', channel=0, note=notes[i]+base_note, time=0 if 0 < i else self.second2time(a['duration'], tempo)))
                         offset = a['start'] + a['duration']
         else:
-            print('\033[91mTypeError\033[0m: limit type must be int or float')
+            print('\033[31mTypeError\033[0m: limit type must be int or float')
             return
 
         print(f'Create {name}.mid')
