@@ -47,7 +47,7 @@ s2m = spotify2midi.Spotify2Midi(id, secret)
 * Enter Spotify URL.
 * Get MIDI file.
 ```
-url = ## Spotify URL ##
+url = 'https://open.spotify.com/track/5Yx45WDFNYLFwj3pjtvfJ6'
 s2m.get_midi(url)
 ```
 
