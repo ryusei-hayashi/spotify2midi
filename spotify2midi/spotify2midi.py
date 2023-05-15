@@ -22,7 +22,7 @@ class Spotify2Midi:
 
     def get_midi(self, url, name='', path='./', limit=1, confidence=0.5, base_note=60, offset=0):
         print('Get Audio Analysis')
-        name = self.spotify.track(url)['name'] if name == '' else name
+        name = name if name else self.spotify.track(url)['name']
         analysis = self.spotify.audio_analysis(url)
         tempo = mido.bpm2tempo(analysis['track']['tempo'])
         track = mido.MidiTrack()
