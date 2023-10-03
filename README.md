@@ -40,8 +40,8 @@ import spotify2midi
 * Enter Client ID and Client Secret.
 * Create instance of Spotify2Midi object.
 ```
-id = ## Your Client ID ##
-secret = ## Your Client Secert ##
+id = '''Your Client ID'''
+secret = '''Your Client Secert'''
 s2m = spotify2midi.Spotify2Midi(id, secret)
 ```
 * Enter Spotify URL.
